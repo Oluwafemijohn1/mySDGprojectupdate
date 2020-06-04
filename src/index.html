@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" data-population placeholder="population">
+    <input type="time" data-time-to-elapse placeholder="Time to Elapse">
+    <input type="number" placeholder="Reported cases" data-reported-cases>
+    <input type="number" placeholder="Total hospital bed" data-total-hospital-beds>
+    <form>
+        <input type="radio" id="days" name="periodType" value="days" data-period-type>
+        <label for="days">Days</label><br>
+        <input type="radio" id="weeks" name="periodType" value="weeks" data-period-type>
+        <label for="weeks">Weeks</label><br>
+        <input type="radio" id="months" name="periodType" value="months" data-period-type>
+        <label for="months">MOnths</label>
+      </form>
+ <button data-go-estimate>Submit</button>
+    <script src="estimator.js"></script>
+</body>
+</html>
